@@ -1,11 +1,12 @@
-# homework
+# DBMS
 
-A collection of six progressively-built C projects that implement a lightweight, Redis-like NoSQL database engine on Linux.  
-Each assignment adds new data structures, commands, and performance tooling.
+This repository contains six C projects I developed for a **Data Structures course**.  
+The goal was to build a lightweight, Redis-like NoSQL database engine on Linux from scratch.  
+Each assignment gradually adds features like new data structures, command sets, and performance benchmarks.
 
 ---
 
-## 📚 Assignment 1 — Simple NoSQL Engine
+## homework1 — Simple NoSQL Engine
 
 Develop a minimal key-value store in **C**:
 
@@ -15,7 +16,7 @@ Develop a minimal key-value store in **C**:
 
 ---
 
-### 🔧 Assignment 2 — Library + Benchmark
+### homework2 — Library + Benchmark
 
 1. **Refactor** Assignment 1 into a reusable library / API.  
 2. **Benchmark** program (C)  
@@ -25,21 +26,21 @@ Develop a minimal key-value store in **C**:
 
 ---
 
-## 📑 Assignment 3 — List Commands
+## homework3 — List Commands
 
 Extend the engine to support Redis-style **List** operations:  
 `LPUSH • LPOP • RPUSH • RPOP • LLEN • LRANGE`
 
 ---
 
-## 🌲 Assignment 4 — Tree Support
+## homework4 — Tree Support
 
 - Manage multiple trees; each node stores a key and pointer to its value.  
 - Custom commands to **insert / search / delete** nodes in any tree.
 
 ---
 
-## 📈 Assignment 5 — Sorted Set
+## homework5 — Sorted Set
 
 Add Redis-like **Sorted Set** commands:  
 `ZADD, ZCARD, ZCOUNT, ZINTERSTORE, ZUNIONSTORE, ZRANGE,  
@@ -47,7 +48,7 @@ ZRANGEBYSCORE, ZRANK, ZREM, ZREMRANGE, ZREMRANGEBYSCORE`
 
 ---
 
-## 🗄️ Assignment 6 — Hash + Events
+## homework6 — Hash + Events
 
 Implement Redis-style **Hash** with `HSET HGET HDEL EXPIRE` plus:
 
